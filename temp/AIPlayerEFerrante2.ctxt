@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=id
+comment0.target=AIPlayerEFerrante2(int)
+comment1.params=array\ row\ col
+comment1.target=boolean\ isInBounds(int[][],\ int,\ int)
+comment2.params=idArray\ moveCount
+comment2.target=pente.Location\ makeMove(int[][],\ int)
+comment3.params=idArray\ row\ col
+comment3.target=boolean\ isOutsideStartBox(int[][],\ int,\ int)
+numComments=4

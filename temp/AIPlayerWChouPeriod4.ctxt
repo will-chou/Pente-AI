@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=id
+comment0.target=AIPlayerWChouPeriod4(int)
+comment1.params=array\ row\ col
+comment1.target=boolean\ isInBounds(int[][],\ int,\ int)
+comment2.params=array
+comment2.target=int\ getOpponentID(int[][])
+comment3.params=array
+comment3.target=int\ numberOfStones(int[][])
+comment4.params=idArray\ moveCount
+comment4.target=pente.Location\ makeMove(int[][],\ int)
+comment5.params=array\ row\ col\ id
+comment5.target=int\ twoInARow(int[][],\ int,\ int,\ int)
+comment6.params=array\ row\ col\ id
+comment6.target=int\ threeInARow(int[][],\ int,\ int,\ int)
+comment7.params=array\ row\ col\ id
+comment7.target=int\ fourInARow(int[][],\ int,\ int,\ int)
+comment8.params=array\ row\ col\ id
+comment8.target=boolean\ isEndStone(int[][],\ int,\ int,\ int)
+comment9.params=array\ row\ col
+comment9.target=pente.Location\ putNextToStone(int[][],\ int,\ int)
+numComments=10

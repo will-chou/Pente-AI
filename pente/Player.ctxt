@@ -1,0 +1,35 @@
+#BlueJ class context
+comment0.params=iconFileName\ n\ id
+comment0.target=Player(java.lang.String,\ java.lang.String,\ int)
+comment0.text=\ Creates\ a\ new\ human\ Player\ with\ the\ given\ icon\ image\ file,\ name,\ and\ player\ ID.\r\n\ Icon\ files\ should\ be\ put\ into\ the\ "images"\ folder\ of\ the\ Pente\ project.\r\n\ @param\ iconFileName\ The\ filename\ for\ your\ player\ icon.\ \ Ex\:\ "black.png"\r\n\ @param\ n\ The\ name\ of\ your\ player.\ \ Ex\:\ "Boboman"\r\n\ @param\ id\ The\ unique\ player\ ID\ for\ your\ player.\r\n
+comment1.params=c\ n\ id
+comment1.target=Player(java.awt.Color,\ java.lang.String,\ int)
+comment1.text=\r\n\ Creates\ a\ new\ human\ Player\ with\ the\ given\ Color,\ name\ and\ player\ ID.\r\n\ Icon\ files\ should\ be\ put\ into\ the\ "images"\ folder\ of\ the\ Pente\ project.\r\n\ @param\ c\ The\ Color\ of\ your\ player.\ \ Ex\:\ \ Color.black\r\n\ @param\ n\ The\ name\ of\ your\ player.\ \ Ex\:\ "Boboman\r\n\ @param\ id\ The\ unique\ player\ ID\ for\ your\ player.\r\n
+comment10.params=opponentCaptures
+comment10.target=void\ setOpponentCaptures(int)
+comment10.text=\r\n\ Sets\ the\ number\ of\ captures\ your\ opponent\ has\ made.\r\n\ <br><br>\r\n\ Note\:\ The\ game\ sets\ this\ for\ you.\ \ Setting\ it\ yourself\ has\ no\ effect\r\n\ on\ the\ actual\ number\ of\ captures\ the\ game\ knows\ your\ opponent\ has\ made.\r\n\ @param\ opponentCaptures\ The\ number\ of\ captures\ your\ opponent\ has\ made.\r\n
+comment2.params=idArray\ moveCount
+comment2.target=Location\ makeMove(int[][],\ int)
+comment2.text=\r\n\ Used\ by\ AIPlayer\ subclasses\ to\ select\ a\ move\ on\ the\ board.\ To\ look\ at\ the\ board,\r\n\ analyze\ the\ idArray\ to\ see\ which\ players\ have\ pieces\ where.\ \ moveCount\ tells\ you\r\n\ which\ move\ of\ the\ game\ this\ is.\r\n\ @param\ idArray\ Represents\ the\ Pente\ board\ as\ an\ array\ of\ player\ IDs.\ An\ ID\r\n\ of\ zero\ means\ that\ spot\ is\ empty.\ \ Any\ other\ number\ represents\ the\ ID\ of\r\n\ the\ player\ in\ that\ spot.\ \ You\ can\ compare\ entries\ to\ your\ own\ ID\ by\ comparing\r\n\ it\ to\ getID()\ of\ yourself.\ \ If\ (idArray[r][c]\ \!\=\ 0\ AND\ idArray[r][c]\ \!\=\ getID())\r\n\ then\ it\ means\ your\ opponent\ has\ a\ piece\ at\ [r][c].\r\n\ @param\ moveCount\ Which\ move\ of\ the\ game\ this\ is.\ \ If\ moveCount\ is\ odd,\ it\ means\ you\r\n\ are\ the\ first\ player\ and\ moveCount\ represents\ which\ move\ of\ the\ game\ this\ is\ (1,\ 3,\r\n\ 5,\ 7,\ ...)\ \ Likewise,\ if\ moveCount\ is\ even,\ it\ means\ you\ are\ the\ second\ player.\r\n\ @return\ A\ Location\ you\ want\ to\ move\ to\ on\ this\ turn.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ Returns\ the\ name\ of\ this\ Player\r\n\ @return\ The\ name\ of\ this\ Player\r\n
+comment4.params=
+comment4.target=java.awt.Color\ getColor()
+comment4.text=\r\n\ Returns\ the\ Color\ of\ this\ player\ if\ this\ player\ was\ constructed\ by\ the\ constructor\r\n\ that\ uses\ a\ Color\ instead\ of\ an\ image\ file.\r\n\ @return\ The\ Color\ of\ this\ player\ or\ null\ if\ this\ player\ was\ created\ using\ an\ image.\r\n
+comment5.params=
+comment5.target=int\ getID()
+comment5.text=\r\n\ Returns\ the\ unique\ player\ ID\ for\ this\ player.\r\n\ @return\ The\ unique\ player\ ID\ for\ this\ player.\r\n
+comment6.params=
+comment6.target=java.awt.image.BufferedImage\ getImage()
+comment6.text=\r\n\ Returns\ the\ BufferedImage\ for\ this\ player.\r\n\ @return\ The\ BufferedImage\ for\ this\ player.\r\n
+comment7.params=
+comment7.target=int\ myCaptures()
+comment7.text=\r\n\ Returns\ the\ total\ number\ of\ pieces\ captured\ by\ this\ player.\r\n\ @return\ The\ total\ number\ of\ pieces\ captured\ by\ this\ player.\r\n
+comment8.params=
+comment8.target=int\ opponentCaptures()
+comment8.text=\r\n\ Returns\ the\ total\ number\ of\ pieces\ captured\ by\ this\ player's\ opponent.\r\n\ @return\ The\ total\ number\ of\ pieces\ captured\ by\ this\ player's\ opponent.\r\n
+comment9.params=myCaptures
+comment9.target=void\ setMyCaptures(int)
+comment9.text=\r\n\ Sets\ the\ number\ of\ captures\ you\ have\ made.\r\n\ <br><br>\r\n\ Note\:\ The\ game\ sets\ this\ for\ you.\ \ Setting\ it\ yourself\ has\ no\ effect\r\n\ on\ the\ actual\ number\ of\ captures\ the\ game\ knows\ you\ have.\r\n\ @param\ myCaptures\ The\ number\ of\ captures\ you\ have\ made.\r\n
+numComments=11

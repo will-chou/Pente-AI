@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=r\ c
+comment0.target=Location(int,\ int)
+comment0.text=\r\n\ Creates\ a\ new\ Location\ with\ the\ given\ row\ and\ column.\r\n\ @param\ r\ The\ row\ of\ this\ Location\ object.\r\n\ @param\ c\ The\ column\ of\ this\ Location\ object.\r\n
+comment1.params=
+comment1.target=int\ getRow()
+comment1.text=\r\n\ Returns\ the\ row\ of\ this\ Location\ object.\r\n\ @return\ The\ row\ of\ this\ Location\ object.\r\n
+comment2.params=
+comment2.target=int\ getCol()
+comment2.text=\r\n\ Returns\ the\ column\ of\ this\ Location\ object.\r\n\ @return\ The\ column\ of\ this\ Location\ object.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Returns\ a\ String\ representation\ of\ this\ object.\r\n\ @return\ A\ String\ representation\ of\ this\ object.\r\n
+numComments=4

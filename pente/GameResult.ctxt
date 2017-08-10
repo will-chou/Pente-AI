@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ getFiveInARowWins()
+comment0.text=\r\n\ Returns\ the\ number\ of\ five-in-a-row\ wins.\r\n\ @return\ The\ number\ of\ five-in-a-row\ wins.\r\n
+comment1.params=
+comment1.target=int\ getCaptureWins()
+comment1.text=\r\n\ Returns\ the\ number\ of\ wins\ by\ capture.\r\n\ @return\ The\ number\ of\ wins\ by\ capture.\r\n
+comment2.params=
+comment2.target=void\ addFiveInARowWin()
+comment2.text=\r\n\ Increments\ the\ number\ of\ wins\ by\ five-in-a-row.\r\n
+comment3.params=
+comment3.target=void\ addCaptureWin()
+comment3.text=\r\n\ Increments\ the\ number\ of\ wins\ by\ capture.\r\n
+comment4.params=other
+comment4.target=int\ compareTo(GameResult)
+comment4.text=\r\n\ Compares\ this\ GameResult\ to\ 'other'\ according\ to\ the\ total\ number\ of\ wins,\ whether\r\n\ by\ five-in-a-row\ or\ by\ capture.\r\n\ @return\ Returns\ the\ difference\ between\ this\ GameResult's\ total\ number\ of\ wins\ and\r\n\ 'other'\ GameResult's\ total\ number\ of\ wins.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Returns\ a\ String\ representation\ of\ this\ GameResult.\r\n\ @return\ A\ String\ representation\ of\ this\ GameResult.\r\n
+numComments=6

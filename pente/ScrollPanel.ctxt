@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ScrollPanel()
+comment0.text=\r\n\ Creates\ a\ new\ ScrollPanel\ with\ no\ message.\r\n
+comment1.params=p1\ p2
+comment1.target=void\ setVSMessage(Player,\ Player)
+comment1.text=\r\n\ Sets\ the\ text\ for\ player\ 1\ vs\ player\ 2\r\n\ @param\ p1\ player\ 1\ reference\r\n\ @param\ p2\ player\ 2\ reference\r\n
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment2.text=\r\n\ Updates\ the\ display\ for\ this\ ScrollPanel.\ \ It's\ fairly\ hard-coded\ as\ it\ stands\r\n\ now\ but\ could\ be\ updated\ to\ be\ more\ general\ purpose.\r\n
+numComments=3

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=iconFileName\ n\ id
+comment0.target=AIPlayer(java.lang.String,\ java.lang.String,\ int)
+comment0.text=\ Creates\ a\ new\ AIPlayer\ with\ the\ given\ icon\ image\ file,\ name,\ and\ player\ ID.\r\n\ Icon\ files\ should\ be\ put\ into\ the\ "images"\ folder\ of\ the\ Pente\ project.\r\n\ @param\ iconFileName\ The\ filename\ for\ your\ player\ icon.\ \ Ex\:\ "black.png"\r\n\ @param\ n\ The\ name\ of\ your\ player.\ \ Ex\:\ "Boboman"\r\n\ @param\ id\ The\ unique\ player\ ID\ for\ your\ player.\r\n
+numComments=1

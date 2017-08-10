@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=rows\ cols
+comment0.target=Board(int,\ int)
+comment0.text=\r\n\ Creates\ a\ Board\ with\ the\ given\ number\ of\ rows\ and\ columns.\r\n\ @param\ rows\ Number\ of\ rows\r\n\ @param\ cols\ Number\ of\ columns\r\n
+comment1.params=row\ col\ newObj
+comment1.target=void\ write(int,\ int,\ java.lang.Object)
+comment1.text=\r\n\ Writes\ a\ new\ value\ to\ the\ board\ at\ the\ specified\ location\ and\ notifies\ any\ Observers.\r\n\ @param\ row\ Row\ where\ the\ new\ data\ should\ be\ written.\r\n\ @param\ col\ Column\ where\ the\ new\ data\ should\ be\ written.\ \r\n\ @param\ newObj\ The\ new\ Object\ to\ be\ written\ at\ (row,\ col)\r\n
+comment2.params=row\ col
+comment2.target=java.lang.Object\ read(int,\ int)
+comment2.text=\r\n\ Reads\ a\ value\ from\ the\ Board\ at\ the\ specified\ location.\r\n\ @param\ row\ Row\ to\ read\ data\ from.\r\n\ @param\ col\ Column\ to\ read\ data\ from.\r\n\ @return\ The\ Object\ at\ the\ given\ (row,\ col)\ position.\r\n
+comment3.params=
+comment3.target=int\ numRows()
+comment3.text=\r\n\ Returns\ the\ number\ of\ rows\ in\ this\ Board.\r\n\ @return\ The\ number\ of\ rows\ in\ this\ Board\r\n
+comment4.params=
+comment4.target=int\ numCols()
+comment4.text=\r\n\ Returns\ the\ number\ of\ columns\ in\ this\ Board.\r\n\ @return\ The\ number\ of\ columns\ in\ this\ Board\r\n
+comment5.params=
+comment5.target=void\ reset()
+comment5.text=\r\n\ Resets\ this\ Board\ and\ notifies\ any\ Observers.\r\n
+numComments=6

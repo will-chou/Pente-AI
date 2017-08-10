@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=g\ v\ b\ hp\ p1\ p2
+comment0.target=PenteController(PenteGUI,\ GridView,\ Board,\ HighlightPanel,\ GridView,\ GridView)
+comment0.text=\r\n\ Creates\ a\ new\ PenteController\ with\ the\ given\ object\ references.\r\n\ @param\ g\ A\ PenteGUI\ to\ listen\ to\r\n\ @param\ v\ A\ GridView\ that\ represents\ the\ visual\ board\r\n\ @param\ b\ A\ Board\ that\ contains\ the\ raw\ game\ data\r\n\ @param\ hp\ A\ HighlightPanel\ that\ serves\ as\ an\ overlay\ showing\ highlighted\ areas\ of\ the\ board\r\n\ @param\ p1\ Player\ 1's\ GridView\ where\ captured\ pieces\ are\ shown\r\n\ @param\ p2\ Player\ 2's\ GridView\ where\ captured\ pieces\ are\ shown\r\n
+comment1.params=loc
+comment1.target=void\ makeMove(Location)
+comment1.text=\r\n\ This\ is\ the\ official\ makeMove\ function\ that\ actually\ makes\ a\ move\ and\ modifies\ the\ board.\r\n\ @param\ loc\ The\ Location\ where\ the\ current\ Player\ will\ make\ a\ move.\r\n
+comment2.params=p\ fiveInARow\ capture
+comment2.target=void\ updateGameResults(Player,\ boolean,\ boolean)
+comment2.text=\r\n\ When\ a\ player\ wins,\ this\ method\ is\ called\ to\ either\ update\ the\ Player's\ game\ statistics\r\n\ or\ to\ create\ a\ new\ entry\ for\ the\ player.\r\n\ @param\ p\ The\ Player\ for\ which\ game\ statistics\ are\ being\ created\ or\ updated.\r\n\ @param\ fiveInARow\ Whether\ or\ not\ this\ player\ won\ by\ getting\ five-in-a-row\r\n\ @param\ capture\ Whether\ or\ not\ this\ player\ won\ by\ capturing\ 10\ opponent\ pieces.\r\n
+comment3.params=
+comment3.target=int[][]\ boardCopy()
+comment3.text=\r\n\ Returns\ a\ 2D\ array\ of\ integers\ representing\ player\ IDs\ on\ the\ board.\r\n\ If\ a\ spot\ is\ empty,\ the\ player\ ID\ is\ zero.\r\n\ @return\ A\ 2D\ array\ of\ player\ IDs.\r\n
+numComments=4

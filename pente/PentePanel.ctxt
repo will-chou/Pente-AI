@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=rows\ cols\ cellSize\ gridLineThickness\ observeObj
+comment0.target=PentePanel(int,\ int,\ int,\ int,\ java.util.Observable)
+comment0.text=\r\n\ Constructs\ a\ new\ PentePanel\ from\ the\ given\ info.\r\n\ @param\ rows\ Number\ of\ rows\ on\ the\ Pente\ board\r\n\ @param\ cols\ Number\ of\ columns\ on\ the\ Pente\ board\r\n\ @param\ cellSize\ Cell\ size\ in\ pixels\ (which\ determines\ the\ overall\ JPanel\ size)\r\n\ @param\ gridLineThickness\ Grid\ line\ thickness\ in\ pixels\r\n\ @param\ observeObj\ An\ observable\ object\ the\ GridView\ will\ monitor\ for\ changes.\ \ In\ Pente,\ this\ is\ the\ Board.\r\n
+comment1.params=
+comment1.target=GridView\ getGridView()
+comment1.text=\r\n\ Getter\ method\ to\ access\ the\ GridView\ used\ by\ this\ PentePanel\r\n\ @return\ The\ GridView\ used\ by\ this\ PentePanel\r\n
+numComments=2
